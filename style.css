@@ -1,0 +1,27 @@
+body {
+    background-color: #a299c2;
+}
+
+button {
+    width: 328px;
+    height: 67px;
+    border-radius: 5%;
+    background-color:purple;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+input {
+    width: 600px;
+    height: 200px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: azure;
+}
+
+.container {
+    margin: 20px;
+
+}
