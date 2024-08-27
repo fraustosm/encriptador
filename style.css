@@ -1,12 +1,20 @@
 body {
     background-color: #a299c2;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: purple;
+    text-align: center;
 }
 
 button {
     width: 328px;
     height: 67px;
-    border-radius: 5%;
-    background-color:purple;
+    border-radius: 60px;
+    background-color:plum;
     color: white;
     font-weight: bold;
     font-size: 24px;
@@ -21,7 +29,15 @@ input {
     background-color: azure;
 }
 
+footer {
+    padding: 30px;
+    background-color: plum;
+    text-align: center;
+}
+
 .container {
     margin: 20px;
+    display: flex;
+    flex-direction: column;
 
 }
