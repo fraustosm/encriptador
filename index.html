@@ -1,36 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main>
-        <h1>Bienvenidos al encriptador</h1>
-        <h3>Escribe tu mensaje y pruebalo!</h3>
+        <header>
+            <h1>Bienvenidos al encriptador</h1>
+            <h3>Escribe tu mensaje y pruébalo!</h3>
+        </header>
 
         <div class="container" id="text-box">
             <div id="encript">
-                <input type="text">
-                <button>Cifrar</button>
-                <button>Descrifrar</button>
+                <input type="text" aria-label="Texto a encriptar" id="textoEncriptar">
+                <button onclick="btnEncriptar()">Cifrar</button>
+                <button onclick="btnDesencriptar()">Descifrar</button>
             </div>
             <div id="desencript">
-                <input type="text" readonly>
-                <button>Copiar</button>
+                <input type="text" readonly aria-label="Texto desencriptado" id="textoDesencriptado">
+                <button onclick="copiarTexto()">Copiar</button>
             </div>
-            <p>Ingrese solo letras minusculas sin acentos ni otros caracteres especiales</p>
         </div>
+        <p>Ingrese solo letras minúsculas sin acentos ni otros caracteres especiales</p>
     </main>
 
+    <footer>
+        Created by María Frausto for the Alura Latam + Oracle Next Education Program
+        Contact me: mfrausto.fs@gmail.com
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-<footer>
-    Created by María Frausto For the Alura Latam + Oracle Next Education Program
-    Contact me mfrausto.fs@gmail.com
-</footer>
 
 </html>
